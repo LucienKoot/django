@@ -1,7 +1,9 @@
-#if statements
+#if statements elif else
 
-if 5 > 7:
-    print('5 is indeed geater than 2')
+name = 'Ali'
+if name == 'Jan':
+    print('Hoi Jan!')
+elif name == 'Truus':
+    print('Hoi Truusje!')
 else:
-    print('5 is not greater than2')
-    
+    print('Hoi anonieme mens')
