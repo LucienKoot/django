@@ -1,18 +1,22 @@
+<html>
 
-    <html>
-        <head>
-            <title>Plu's blog</title>
-        </head>
-        <body>
-            <div>
-                <h1><a href="/">Plu's Blog</a></h1>
-            </div>
-    
-            <div>
-                {{ posts }}
-            </div>
-        </body>
-    </html>
+<head>
+    <title>Plu's blog</title>
+</head>
+
+<body>
+    <div>
+        <h1><a href="/">Plu's Blog</a></h1>
+    </div>
+
+    <div>
+        {% for post in posts %}
+        {{ post }}
+        {% endfor %}
+    </div>
+</body>
+
+</html>
 
 
 <!-- extra info for editoring person:
